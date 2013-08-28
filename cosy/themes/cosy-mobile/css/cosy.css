@@ -1,0 +1,44 @@
+#table_dailyReport_mob
+{
+	border: 1px solid red;
+}
+
+/*Room View Mobile*/
+.week_days_letter
+{
+	width:14%;
+	font-size:11px;
+}
+
+.table_mobile {
+  border-color: #red;
+}
+
+table .calendar { border-collapse:collapse; }
+table .calendar, tr .calendar, th .calendar, td .calendar { border: 0px solid black; padding: 0; }
+
+
+.icon_calendar, .icon_calendar_mini
+{
+	border: 1px solid #e7e7e7;
+	float: left;
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 6px;
+	height: 6px;
+	background-size: 4px 4px;
+	
+}
+
+/*
+.icon_calendar_mini { width: 5px; height: 5px; background-size: 5px 5px; }
+.icon_calendar_red { background-image: url(../../santantao/images/red_towel.png); }
+.icon_calendar_light_red { background-image: url(../../santantao/images/bed_01.png); background-color: #ff6347; }
+.icon_calendar_light_green { background-image: url(../../santantao/images/bed_01.png); background-color: #32cd32; }
+.icon_calendar_green { background-image: url(../images/green_towel.png); }*/
+
+.icon_calendar_mini { width: 10px; height: 10px; background-size: 10px 10px; }
+.icon_calendar_red { background-image: url(../../santantao/images/red_towel.png); }
+.icon_calendar_light_red {  background-color: #d80000;}
+.icon_calendar_light_green {  background-color: #00b300;}
+.icon_calendar_green { background-image: url(../images/green_towel.png); }

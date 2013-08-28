@@ -1,0 +1,184 @@
+
+input, select  {
+	/*font-family:"Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;*/
+	padding: 5px;
+	font-size: 15px;
+	text-shadow: 0px 1px 0px #fff;
+	outline: none;
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbe), to(#ffffff));
+	background: -moz-linear-gradient(top,  #bcbcbe,  #ffffff);*/
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #717171;
+	-webkit-box-shadow: 1px 1px 0px #efefef;
+	-moz-box-shadow: 1px 1px 0px #efefef;
+	box-shadow:  1px 1px 0px #efefef;
+}
+
+button, submit{
+   border: 1px solid #8ec1da;
+   background-color: #ddeef6;
+   border-radius: 4px;
+   box-shadow: inset 0 1px 3px #fff, inset 0 -15px #cbe6f2, 0 0 3px #8ec1da;
+   -o-box-shadow: inset 0 1px 3px #fff, inset 0 -15px #cbe6f2, 0 0 3px #8ec1da;
+   -webkit-box-shadow: inset 0 1px 3px #fff, inset 0 -15px #cbe6f2, 0 0 3px #8ec1da;
+   -moz-box-shadow: inset 0 1px 3px #fff, inset 0 -15px #cbe6f2, 0 0 3px #8ec1da;
+   color: #3985a8;
+   text-shadow: 0 1px #fff;
+   padding: 5px 30px;
+}
+
+div .transparente {
+   width: 100px;
+   height: 100px;
+   margin: 10px;
+   padding: 0;
+   border: 1px solid rgba(0,0,0,0.5);
+   border-radius: 10px 10px 2px 2px;
+   background: rgba(0,0,0,0.25);
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+
+table .calendar
+{
+	border-collapse:collapse;
+}
+
+table .calendar, th .calendar, td .calendar
+{
+	border: 1px solid black;
+}
+
+able .calendar_excel, th .calendar_excel, td .calendar_excel
+{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.icon_calendar, .icon_calendar_mini
+{
+	border: 0px solid black;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+}
+
+.icon_calendar_mini
+{
+	width: 15px;
+	height: 15px;
+	background-size: 15px 15px;
+}
+
+.icon_calendar_red
+{
+	background-image: url(../images/red_towel.png);
+}
+
+.icon_calendar_light_red
+{
+	/*background-image: url(../images/light_red_towel.png);*/
+	background-image: url(../images/bed_01.png);
+	background-color: #ff6347;
+}
+
+.icon_calendar_light_green
+{
+	/*background-image: url(../images/light_green_towel.png);*/
+	background-image: url(../images/bed_01.png);
+	background-color: #32cd32;
+}
+
+.icon_calendar_green
+{
+	background-image: url(../images/green_towel.png);
+}
+
+.hint {
+	color: #999;
+}
+
+/*
+* Tabela de Estatisticas dos Reports
+*/
+.table_report_data{
+	border: 6px solid #fff;
+	width: 280px;
+	height: 120px;
+	/*background: #EFEFEF url(../images/back_yellow.png) repeat;*/
+	font: bold;
+}
+.table_dailyReport{
+	border: 3px solid #fff;
+	width: 900px;
+	height: 70px;
+	/*background: #EFEFEF url(../images/back_yellow.png) repeat;*/
+	
+}
+
+.table_dailyReport_td_title
+{
+font-weight:bold;
+text-align:center;
+width:20%;
+}
+
+.table_dailyReport_td
+{
+text-align:center;
+width:20%;
+}
+
+.table_dailyReport td tr
+{
+	height:70px;
+	
+}
+
+.div_report_data{
+	width: 400px;
+	height: 200px;
+	float:left;
+}
+
+.div_report_data2{
+	width: 1000px;
+	height: 420px;
+}
+
+.draft_pie{
+	width: 550px;
+	height: 400px;
+	float : right;
+}
+
+.draft_line{
+	
+	width: 700px;
+	height: 400px;
+}
+
+.heade{
+	/*border: 6px solid #fff;*/
+	width: 100%;
+	height: 90px;
+	background: #EFEFEF url(../images/back_yellow.png) repeat;
+	font: bold;
+}
+.heade a{
+	/*border: 6px solid #fff;*/
+	color: black;
+}
+
+.heade a:hover{
+	/*border: 6px solid #fff;*/
+	color: black;
+}
