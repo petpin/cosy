@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page {
+    padding-top: 60px;
+}
+
+table .calendar { border-collapse:collapse; }
+table .calendar, th .calendar, td .calendar { border: 1px solid black; }
+
+.icon_calendar, .icon_calendar_mini
+{
+	border: 0px solid black;
+	float: left;
+	margin-left: 2px;
+	margin-top: 2px;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+}
+
+.icon_calendar_mini { width: 15px; height: 15px; background-size: 15px 15px; }
+.icon_calendar_red { background-image: url(../images/bed_01.png); }
+.icon_calendar_light_red { background-image: url(../images/bed_01.png); background-color: #ff6347; }
+.icon_calendar_light_green { background-image: url(../images/bed_01.png); background-color: #32cd32; }
+.icon_calendar_green { background-image: url(../images/bed_01.png); }
+
+.hint { color: #999; }
+
+.calendar_weekend{
+    background-color: #ccc;
+}

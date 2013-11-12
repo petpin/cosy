@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#page {
+    padding-top: 60px;
+}
+
+table .calendar { border-collapse:collapse; }
+table .calendar, th .calendar, td .calendar { border: 1px solid black; }
+
+.hint { color: #999; }
+
+.btn-gray {
+	color: #fff;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	/*background-color: #ccc;*/
+	background-image: -moz-linear-gradient(top,#ccc,#cdc);
+	background-image: -webkit-gradient(linear,0 0,0 100%,from(#ccc),to(#cdc));
+	background-image: -webkit-linear-gradient(top,#ccc,#cdc);
+	background-image: -o-linear-gradient(top,#ccc,#cdc);
+	background-image: linear-gradient(to bottom,#ccc,#cdc);
+	background-repeat: repeat-x;
+	border-color: #ccc #ccc #bcc;
+	border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc',endColorstr='#ff0044cc',GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-group.open .btn-gray.dropdown-toggle {
+	background-color: #cdc;
+}
