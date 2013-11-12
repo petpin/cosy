@@ -255,7 +255,7 @@ _gaq.push(['_trackPageview'],['_trackPageLoadTime']);
 
 <div id="siteinfo">        
 
-Powered by <a class="wp-link" href="http://yiiframework.com" title="Yii framework" rel="generator">Yii framework</a>. Built on the <a class="theme-link" href="http://themeshaper.com/thematic/" title="Thematic Theme Framework" rel="designer">Thematic Theme Framework</a>. <a class="child-theme-link" Design by <a href="http://www.ejhansel.com/" title="Designed by ejhansel.com">Designed by ejhansel.com</a>.    
+    
 </div><!-- #siteinfo -->
 
 
